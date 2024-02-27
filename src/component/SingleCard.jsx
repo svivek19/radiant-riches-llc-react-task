@@ -21,7 +21,7 @@ const Card = ({ title, para, offer, num, perform, id, build }) => {
                         <br />
                         <b className='text-[#2C384A]'>Main highlights</b>
 
-                        <ul className='w-[405px] p-5 bg-[#FFF4ED] text-[#4B5665] space-y-2 rounded-md'>
+                        <ul className='w-[355px] p-5 bg-[#FFF4ED] text-[#4B5665] space-y-2 rounded-md'>
                             <li className='space-x-4'>
                                 <span className='text-[#1B88F4] bg-white p-1 rounded-md'>9.9</span>
                                 <span className='text-[15px]'>building responsive</span>
