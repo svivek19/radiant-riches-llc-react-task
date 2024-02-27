@@ -9,7 +9,7 @@ const Deals = () => {
                 <div className='md:grid md:grid-cols-3 gap-8'>
                     {[1, 2, 3].map((index) => (
                         <div key={index} className='bg-white my-3 w-[333px] h-[425px] p-5 rounded-lg'>
-                            <div>
+                            <div className='flex justify-center'>
                                 <img src={Image} alt="image" />
                             </div>
                             <div className='space-x-4 my-3'>
