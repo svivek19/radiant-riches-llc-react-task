@@ -4,6 +4,7 @@ import HeadSection from './component/HeadSection';
 import Card from './component/Card';
 import data from './data.json';
 import SingleCard from './component/SingleCard'
+import Deals from './component/Deals';
 
 const App = () => {
 
@@ -35,6 +36,8 @@ const App = () => {
           num={card.num}
         />
       ))}
+      
+      <Deals />
     </div>
   );
 };
