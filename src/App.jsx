@@ -5,10 +5,11 @@ import Card from './component/Card'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-[#FBFCFD]'>
       <Navbar />
       <HeadSection />
       <Card/>
+      
     </div>
   )
 }
