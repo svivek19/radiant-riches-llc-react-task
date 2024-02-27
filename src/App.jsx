@@ -3,6 +3,7 @@ import Navbar from './component/Navbar';
 import HeadSection from './component/HeadSection';
 import Card from './component/Card';
 import data from './data.json';
+import SingleCard from './component/SingleCard'
 
 const App = () => {
 
@@ -20,6 +21,18 @@ const App = () => {
           perform={section.perform}
           build={section.build}
           id={section.id}
+        />
+      ))}
+      {data.SingleCard.map((card, index) => (
+        <SingleCard
+          key={index}
+          title={card.title}
+          para={card.para}
+          offer={card.offer}
+          build={card.build}
+          id={card.id}
+          perform={card.perform}
+          num={card.num}
         />
       ))}
     </div>
