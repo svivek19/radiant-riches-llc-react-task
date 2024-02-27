@@ -18,10 +18,10 @@ const Navbar = () => {
                     className="block p-2.5 pl-10 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-lg outline-none"
                 />
             </div>
-            <ul className='flex text-white text-[14px] gap-6'>
-                <li className='cursor-pointer'>Categories</li>
-                <li className='cursor-pointer'>Website Builders</li>
-                <li className='cursor-pointer'>Today's deals</li>
+            <ul className='flex items-center text-white text-[14px] gap-6'>
+                <li>Categories</li>
+                <li>Website Builders</li>
+                <li>Today's deals</li>
             </ul>
         </div>
     );
