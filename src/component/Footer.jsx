@@ -4,7 +4,7 @@ import {Down} from './icons/Icon';
 const Footer = () => {
     return (
         <div className='bg-[#212731] p-5'>
-            <div className='flex justify-between my-5 items-center w-5/6 mx-auto'>
+            <div className='md:flex md:justify-between my-5 space-y-5 md:space-y-0 items-center w-5/6 mx-auto'>
                 <div>
                     <h1 className='text-white text-[18px]'>Categories</h1>
                     <ul className='text-[#B6BDC4] text-[14px]'>
