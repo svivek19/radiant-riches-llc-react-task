@@ -6,12 +6,12 @@ import Feature from './Feature';
 const Card = ({ title, para, paraTwo, num, perform, id, build }) => {
     return (
         <div>
-            <div className='w-5/6 my-8 mx-auto'>
+            <div className='w-11/12 md:w-5/6 my-8 mx-auto'>
                 {id === 1 || id === 2 ? <Feature id={id}/> : null}
-                <div className='grid grid-cols-3 bg-[#FFFFFF] p-4 rounded-xl'>
+                <div className='grid md:grid-cols-3 bg-[#FFFFFF] p-4 rounded-xl'>
                     <div className='place-items-center'>
                         <p className='text-[#626E79] text-[20px] border border-[gray] p-2 rounded-full w-10 h-10 flex items-center justify-center'>{id}</p>
-                        <img src={Image} alt="image" className='w-[141px] mx-auto mt-10 ' />
+                        <img src={Image} alt="image" className='w-full md:w-[141px] mx-auto mt-10 ' />
                         <p className='text-[13px] text-[#626E79] text-center mt-2'>{build}</p>
                     </div>
 
@@ -29,7 +29,7 @@ const Card = ({ title, para, paraTwo, num, perform, id, build }) => {
                     </div>
 
                     <div className='flex flex-col items-center justify-center'>
-                        <div className='bg-[#F3F9FF] p-6 rounded-b-2xl w-5/12'>
+                        <div className='bg-[#F3F9FF] p-6 rounded-b-2xl w-full md:w-5/12'>
                             <h3 className='text-[32px] text-[#074786] text-center font-normal'>{num}</h3>
                             <p className='text-[#074786] text-[14px] text-center my-3'>{perform}</p>
                             <span className='flex justify-center'><FullStar /></span>

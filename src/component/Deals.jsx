@@ -4,11 +4,11 @@ import Image from '../assets/image.png';
 const Deals = () => {
     return (
         <div>
-            <div className='w-5/6 mx-auto mt-20'>
+            <div className='w-11/12 md:w-5/6 mx-auto mt-20'>
                 <h1 className='text-[32px] text-[#2C384A] mb-10'>Related deals you might like for</h1>
-                <div className='grid grid-cols-3 gap-8'>
+                <div className='md:grid md:grid-cols-3 gap-8'>
                     {[1, 2, 3].map((index) => (
-                        <div key={index} className='bg-white w-[333px] h-[425px] p-5 rounded-lg'>
+                        <div key={index} className='bg-white my-3 w-[333px] h-[425px] p-5 rounded-lg'>
                             <div>
                                 <img src={Image} alt="image" />
                             </div>
