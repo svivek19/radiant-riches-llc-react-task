@@ -6,6 +6,7 @@ import data from './data.json';
 import SingleCard from './component/SingleCard'
 import Deals from './component/Deals';
 import NewsSletter from './component/NewsSletter';
+import Footer from './component/Footer';
 
 const App = () => {
 
@@ -40,6 +41,7 @@ const App = () => {
       
       <Deals />
       <NewsSletter/>
+      <Footer/>
     </div>
   );
 };
